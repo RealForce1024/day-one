@@ -39,10 +39,16 @@
 # 准备 
 - 职位: 架构师/资深研发/全栈工程师
 - 行业: 金融/教育/医疗
-- 面试点: 分布式/高并发/缓存/SQL/网关/容错/监控/雪崩/DDD/负载/nginx/rabbit/es/中台/大数据/低延迟/restful设计/系统设计/注册中心/配置中心/k8s/docker/devops
+- 面试点: 分布式/高并发/缓存/SQL/网关/容错/容灾/服务降级/监控/雪崩/DDD/负载/nginx/rabbit/es/kafka/redis/中台/大数据/低延迟/restful设计/系统设计/注册中心/配置中心/k8s/docker/devops/中台/设计模式/秒杀
 - 谦虚/自信/善于沟通
 - 非特定语言
 - n+1 / error / exception / 读写分离 主从
 # company
 [firehouse](http://blog.thefirehoseproject.com/posts/category/career-advice/)  
 
+
+#
+- [秒杀系统优化方案之缓存、队列、锁设计思路](https://segmentfault.com/a/1190000008888926)  
+- [演讲实录：使用 Go 开发秒杀系统的实践](http://blog.shurenyun.com/untitled-7/)    
+- [基于可靠消息最终一致性分布式事务框架
+](https://github.com/yu199195/myth)    
