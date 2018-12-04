@@ -11,8 +11,12 @@
  ##
 [csdn 算法博客](https://blog.csdn.net/MBuger/article/details/70259940)  
 [各种语言的算法实现](https://rosettacode.org/wiki/Category:Elixir)  
-
- 
+[斐波那契数列算法及时间复杂度分析
+](https://blog.csdn.net/ecjtu_yuweiwei/article/details/47282457)  
+[以下计算斐波那契数列的函数时间复杂度为](https://www.nowcoder.com/questionTerminal/fd57dad14d224881a929d6739741fe50)  
+[斐波那契数列数列的三种时间复杂度的实现方法
+](https://blog.csdn.net/u012684062/article/details/76330075)  
+[递归时间复杂度](https://www.cnblogs.com/youxin/p/3284089.html)  
 
 
 # Project: 面试
@@ -23,7 +27,9 @@
 [算法面试指南-如何做好算法面试](https://segmentfault.com/l/1500000015156212)  
 
 # Elixir&&Phoenix  
-[phoenix lessions](http://phoenix.thefirehoseproject.com/11.html)  
+- [phoenix lessions](http://phoenix.thefirehoseproject.com/11.html)  
+
+- [dave tomas elixir](https://www.youtube.com/watch?v=KQwEmdOH-GM)  
 
 ## awesome elixir phoenix
 - [Advantages of Elixir vs Golang
@@ -45,14 +51,14 @@
 # 准备 
 - 职位: 架构师/资深研发/全栈工程师
 - 行业: 金融/教育/医疗
-- 面试点: 分布式/高并发/缓存/SQL/网关/容错/容灾/服务降级/监控/雪崩/DDD/负载/nginx/rabbit/es/kafka/redis/中台/大数据/低延迟/restful设计/系统设计/注册中心/配置中心/k8s/docker/devops/中台/设计模式/秒杀/重试/连接超时/静态分析/测试/TDD/多线程/异步io/非阻塞/分布式容错/分布式一致性/熔断/鲁棒性 稳定性/
+- 面试点: 分布式/高并发/缓存/SQL/网关/容错/容灾/服务降级/监控/雪崩/DDD/负载/nginx/rabbit/es/kafka/redis/中台/大数据/低延迟/restful设计/系统设计/注册中心/配置中心/k8s/docker/devops/中台/设计模式/秒杀/重试/连接超时/静态分析/测试/TDD/多线程/异步io/非阻塞/分布式容错/分布式一致性/熔断/鲁棒性 稳定性/协议/网络协议
 - 谦虚/自信/善于沟通
 - 非特定语言
 - n+1 / error / exception / 读写分离 主从
 # company
 [firehouse](http://blog.thefirehoseproject.com/posts/category/career-advice/)  
 
-#
+# design
 - [秒杀系统优化方案之缓存、队列、锁设计思路](https://segmentfault.com/a/1190000008888926)  
 - [演讲实录：使用 Go 开发秒杀系统的实践](http://blog.shurenyun.com/untitled-7/)    
 - [基于可靠消息最终一致性分布式事务框架
