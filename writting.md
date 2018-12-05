@@ -94,3 +94,18 @@ https://mp.weixin.qq.com/s?__biz=MzI4MTY5NTk4Ng==&mid=2247488949&amp;idx=2&amp;s
 
 两个讲课榜样 
 peter haoqicat.com 和 宁皓（王浩） 
+
+
+phodal
+编程 - 写作 - 设计
+
+
+
+http://www.dalbll.com/ 
+gitchat
+极客时间
+markdown
+听云
+简书
+小专栏
+极客时间
