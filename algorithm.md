@@ -123,6 +123,9 @@ k次方阶: O(n^k)
 
 
 
+https://exercism.io/ 
+leetcode 
+
 
 
 
