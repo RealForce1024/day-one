@@ -8,6 +8,8 @@
 - 与docker对比:   
 都是基础工具，定位还是不太一样，docker应用环境配置部署等。  
 vagrant基本上市管理虚拟机。  
+## vagrant 必知必会
+[vagrant必知必会 该篇总结的非常到位](https://notes.tried.cc/vagrant)  
 
  ## vagrant 构建虚机
 1. 安装virtualbox
@@ -52,6 +54,12 @@ vagrant init centos/7
 vagrant up
 ```
 
+注意: 使用ssh root登录对于vm实例的设置 
+```
+sudo sed -i 's/PasswordAuthentication no/PasswordAuthentication yes/g' /etc/ssh/sshd_config;
+sudo systemctl restart sshd;
+```
+
 1. shell语言
 2. awk,sed 掌握
 3. vim查找替换
@@ -69,3 +77,5 @@ vagrant up
 - [拼命三郎ol](https://www.jianshu.com/u/1d7a72cd4230)  
 - [第一期|使用docker构建高可用的开发环境](https://segmentfault.com/l/1500000011347031)  
 - [预备课：深入理解 Docker 内部原理及网络配置](https://segmentfault.com/l/1500000011347031)  
+- https://notes.tried.cc/vagrant 
+
