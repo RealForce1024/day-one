@@ -1,27 +1,40 @@
 core java 有很多图例非常赞
-[](https://introcs.cs.princeton.edu/java/11cheatsheet/)  
-https://visual.ly/community/infographic/technology/java-cheat-sheet
-https://lifehacker.com/keep-this-java-cheat-sheet-on-hand-while-youre-learning-1660244933
-
-
-https://github.com/in28minutes/java-cheat-sheet 
-[](https://home.et.utwente.nl/slootenvanf/div/cheatsheet/)   
+https://www.edureka.co/blog/java-tutorial/
+https://www.edureka.co/blog/category/programming/
 
 速查表 http://overapi.com/java
 [core java cheatsheet](https://www.edureka.co/blog/cheatsheets/java-cheat-sheet/)  
+https://www.edureka.co/blog/java-collections/
+
+
+[总结教科书中最常用的Java语言特性和API。](https://introcs.cs.princeton.edu/java/11cheatsheet/)  
+[java8 cheatsheet](http://www.java8.org/)  
+https://visual.ly/community/infographic/technology/java-cheat-sheet
+https://lifehacker.com/keep-this-java-cheat-sheet-on-hand-while-youre-learning-1660244933
+
+[java guide](https://programming.guide/java/)   
+
+[github java cheatsheet](https://github.com/in28minutes/java-cheat-sheet 
+)  
+
+java vs gezhgon https://www.educba.com/java-8-vs-java-9/
+[cheatsheet world 不错 内容精简](https://home.et.utwente.nl/slootenvanf/div/cheatsheet/)   
+
+
 
 [20 Most Useful Java Cheat Sheets For Developers | 2018 Edition
 ]( https://www.rankred.com/java-cheat-sheets/
 )  
+[java 各种cheatsheet 
+](https://www.cheatography.com/tag/java/
+)  
 
-https://www.cheatography.com/tag/java/
-
-https://introcs.cs.princeton.edu/java/11cheatsheet/
+https://exercism.io/my/tracks/java 
 
 http://mindprod.com/jgloss/jcheat.html
 
-[java8 cheatsheet](http://www.java8.org/) 
-[java guide](https://programming.guide/java/)  
+
+
 [JAVA CHEAT SHEETS
 ](https://www.ktbyte.com/java-tutorial/java-cheat-sheets)  
 
@@ -49,4 +62,4 @@ https://www.educba.com/cheat-sheet-java/
 [非中英的备忘录，形式值的参考](https://vorkurs.informatik.rwth-aachen.de/downloads/java_cheatsheet.pdf)
 
 
-https://exercism.io/my/tracks/java 
+https://www.ktbyte.com/java-tutorial/book/combinatorics 互动性
