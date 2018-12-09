@@ -51,7 +51,38 @@
 # 准备 
 - 职位: 架构师/资深研发/全栈工程师
 - 行业: 金融/教育/医疗
-- 面试点: 分布式/高并发/缓存/SQL/网关/容错/容灾/服务降级/监控/雪崩/DDD/负载/nginx/rabbit/es/kafka/redis/中台/大数据/低延迟/restful设计/系统设计/注册中心/配置中心/k8s/docker/devops/中台/设计模式/秒杀/重试/连接超时/静态分析/测试/TDD/多线程/异步io/非阻塞/分布式容错/分布式一致性/熔断/鲁棒性 稳定性/协议/网络协议/重连/弹性伸缩/集群哨兵/中台架构/分库分表设计与上线/jvm/GC/设计模式
+- 面试点: 分布式/高并发/缓存/SQL/网关/容错/容灾/服务降级/监控/雪崩/DDD/负载/nginx/rabbit/es/kafka/redis/中台/大数据/低延迟/restful设计/系统设计/注册中心/配置中心/k8s/docker/devops/中台/设计模式/秒杀/重试/连接超时/静态分析/测试/TDD/多线程/异步io/非阻塞/分布式容错/分布式一致性/熔断/鲁棒性 稳定性/协议/网络协议/重连/弹性伸缩/集群哨兵/中台架构/分库分表设计与上线/jvm/GC/设计模式/io nio/安全/高性能/语言特性: 泛型, lambda 基础类库:集合 io/nio 网络 安全 并发
+
+类加载过程: 加载 验证 链接 初始化
+常见垃圾收集器: SeiralGC ParallelGC CMS G1 适用于什么样的工作负载
+
+面试官的刨根问底法: 看面试人的对知识点的掌握程度
+
+[ClassNotFoundException vs. NoClassDefFoundError](https://dzone.com/articles/java-classnotfoundexception-vs-noclassdeffounderro)  
+
+ClassNotFoundException is an exception that occurs when you try to load a class at run time using Class.forName() or loadClass() methods and mentioned classes are not found in the classpath.
+
+NoClassDefFoundError is an error that occurs when a particular class is present at compile time, but was missing at run time.
+
+try-with-resources
+
+throw early, catch late
+
+反应变慢，吞吐下降，查看是否频繁的exception
+异步编程中的promise future对异常的处理机制
+业务功能模块分配id
+
+四种引用 强、软、弱、幻想引用 对象的可达性与垃圾回收的影响
+强引用Strong 普通对象引用 赋值null
+软引用Soft  强引用的弱化 可以使得对象豁免垃圾回收 在内存敏感时的缓存，会保证内存可用，释放弱引用对象，保证不耗尽内存。
+弱引用 Weak  如果对象存在就访问，不在就重新实例化，也同样是缓存实现的选择。  
+幻想引用 或者虚引用  不能通过它访问对象,提供了确保对象被finalize后能做某些事情的机制. 可用来监控对象的创建和销毁
+
+mysql的 connector-j 驱动在特定模式下(useCompression=true)的内存泄露问题,就需要我们理解怎么排查幻想对象的堆积问题。  
+
+
+
+
 
 - 谦虚/自信/善于沟通
 - 非特定语言
@@ -73,6 +104,7 @@ MySQL分库分表单库分表和迁移数据(4th) https://cn.aliyun.com/jiaochen
 
 
 # prepare
+- java核心技术36讲 重点复习
 - java base && java cheatsheet 见java-cheatsheet.md
 - java 最佳实践 如何写出优雅高效的代码 sf aws复习
 - jvm
