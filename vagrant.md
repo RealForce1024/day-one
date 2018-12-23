@@ -78,4 +78,3 @@ sudo systemctl restart sshd;
 - [第一期|使用docker构建高可用的开发环境](https://segmentfault.com/l/1500000011347031)  
 - [预备课：深入理解 Docker 内部原理及网络配置](https://segmentfault.com/l/1500000011347031)  
 - https://notes.tried.cc/vagrant 
-
