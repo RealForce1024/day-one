@@ -11,29 +11,52 @@ vagrant基本上市管理虚拟机。
 ## vagrant 必知必会
 [vagrant必知必会 该篇总结的非常到位](https://notes.tried.cc/vagrant)  
 
- ## vagrant 构建虚机
-1. 安装virtualbox
-2. 给vagrant新增一个box(添加虚机镜像)
+## 环境准备
+1. 安装virtualbox  
+2. 安装vagrant  
+
+   以上都使用最新即可。
+
+## 构建虚机
+
+### 一 快速预览命令
+```
+mkdir vagrant-ubuntu
+cd vagrant-ubuntu
+vagrant box add ubuntu/trusty64
+vagrant init ubuntu/trusty64
+vagrant up --provider virtualbox
+vagrant ssh
+```
+
+### 二 详细步骤描述
+首先`box`就是我们常说的系统镜像,我们向vagrant添加镜像，构建虚拟机实例。   
+以下两种方式可根据自己网络优劣进行选择。  
+
+1. vagrant联网下载新增box(添加虚机镜像)
 
 ```
 vagrant box add centos/7
+```
+2. 手动新增一个box  
+
+```
+vagrant box add -name 'centos/7' [box放置的位置]
 ```
 
 centos/7表示box的名称，如果当前路径没有，vagrant就会到官网的Vagrant Cloud中寻找并下载。
 
 国内速度下载速度如果没有搭梯子一般会很慢，这里提供了一个下载链接： 
-https://pan.baidu.com/s/1DIis9g8JoyXMJvkkWkiL8A 
-这种将本地的box添加到Vagrant的命令如下：
+链接: https://pan.baidu.com/s/1tNxgnTKOkCSYragW_d9t8A 提取码: jpep 
 
-```
-vagrant box add -name 'centos/7' [box放置的位置]
-```
+这种将本地的box添加到Vagrant的命令如下：
 
 下载后的镜像位置:  
 ```
 Mac OS X and Linux: ~/.vagrant.d/boxes
 Windows: C:/Users/USERNAME/.vagrant.d/boxes
 ```
+注意上述步骤都是全局创建的镜像，之后我们可以任意选择本地已有的镜像进行虚拟机实例创建。  
 
 3. 创建vagrant工作目录
 ```
@@ -65,6 +88,10 @@ sudo systemctl restart sshd;
 3. vim查找替换
 
  ## todo: vagrant 创建集群
+
+
+
+
 
 # resource
 - [Vagrant介绍-从使用到放弃再到掌握完全指南- 我在一年内使用Vagrant的心路历程](https://jimmysong.io/posts/vagrant-intro/)  
