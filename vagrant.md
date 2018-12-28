@@ -40,14 +40,21 @@ vagrant box add centos/7
 ```
 2. 手动新增一个box  
 
+vagrant box add --name 简化名 实际位置
 ```
-vagrant box add -name 'centos/7' [box放置的位置]
+$ ~/.vagrant.d/boxes » vagrant box add -name 'centos/7' centos7-1811_02.box
+
+==> box: Box file was not detected as metadata. Adding it directly...
+==> box: Adding box 'centos/7' (v0) for provider:
+    box: Unpacking necessary files from: file:///Users/fqc/.vagrant.d/boxes/centos7-1811_02.box
+==> box: Successfully added box 'centos/7' (v0) for 'virtualbox'!
 ```
 
 centos/7表示box的名称，如果当前路径没有，vagrant就会到官网的Vagrant Cloud中寻找并下载。
 
 国内速度下载速度如果没有搭梯子一般会很慢，这里提供了一个下载链接： 
 链接: https://pan.baidu.com/s/1tNxgnTKOkCSYragW_d9t8A 提取码: jpep 
+官方下载地址: https://app.vagrantup.com/centos/boxes/7
 
 这种将本地的box添加到Vagrant的命令如下：
 
@@ -58,6 +65,12 @@ Windows: C:/Users/USERNAME/.vagrant.d/boxes
 ```
 注意上述步骤都是全局创建的镜像，之后我们可以任意选择本地已有的镜像进行虚拟机实例创建。  
 
+查找本地已有的镜像box
+```
+$ vagrant box list            
+
+centos/7 (virtualbox, 1809.01)
+```
 3. 创建vagrant工作目录
 ```
 cd vagrant_workspace
@@ -87,10 +100,8 @@ sudo systemctl restart sshd;
 2. awk,sed 掌握
 3. vim查找替换
 
- ## todo: vagrant 创建集群
-
-
-
+ ## 三 vagrant 集群搭建
+前面一二节我们搭建了单机节点，vagrant集群搭建步骤与之类似，只是多了个循环步骤来进行多节点创建。  
 
 
 # resource
